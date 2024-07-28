@@ -1,0 +1,17 @@
+html,
+body {
+   height: 100%;
+   margin: 0;
+}
+
+/* Flexbox to center the canvas */
+body {
+   display: flex;
+   justify-content: center; /* Horizontally center */
+   align-items: center; /* Vertically center */
+}
+
+/* Optional: style for the canvas */
+canvas {
+   border: 1px solid black; /* Example styling */
+}
